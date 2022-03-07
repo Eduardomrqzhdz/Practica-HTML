@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pasteleria Márquez</title>
+    <link   rel="stylesheet" type="text/css" href="estilos/estilos.css">
+
+</head>
+<body>
+    <ul>
+        <li><a href="#tamano">Opción de pastel</a></li>
+        <li><a href="#datos">Datos</a></li>
+        <li><a href="#direccion">Dirección de entrega</a></li>
+        <li><a href="pasteleriaCliente.html">Vista cliente</a></li>
+        <li><a href="pasteleria.html">Vista pastelero</a></li>
+    </ul>
+
+   <section class="seccion">
+
+    <img src="imagenes/portada pastel2.png" width="1300px" height="500px"> 
+
+
+    <h2 class="subtitulos" id="tamano">Tamaño de los Pasteles</h2>
+    <p>Pastel Grande -------------------------------- $400</p>
+    <p>Pastel Mediano -------------------------------- $300</p>
+    <p>Pstel Chico ----------------------------------- $ 200</p>
+    
+    
+    <form>
+        <fieldset>
+        <legend class="subtitulos">Realiza tu pedido</legend>
+
+        <label for="comentario">Descripcion del Pastel:</label><br/>
+        <textarea id="comemtario" name="comentario" rows="2" cols="60" placeholder="Describe detalladamente tu pedido"></textarea><br/>
+        <br/>
+
+        <h2 class="subtitulos">Tamaño del Pastel: </h2>
+        <input type="radio" id="grande" name="pastel" value="gande"/>
+        <label for="grande">Pastel Gande ---------------- $400</label><br/>
+        <input type="radio" id="medianao" name="pastel" value="mediano"/>
+        <label for="mediano">Pastel Mediano -------------- $300</label><br/>
+        <input type="radio" id="chico" name="pastel" value="chico"/>
+        <label for="chico">Pastel Chico ------------------ $200</label><br/>
+
+        <h2 class="subtitulos">Sabores de Patel: </h2>
+        <input type="checkbox" id="chocolate" name="pastel" value="chocolate"/>
+        <label for="chocolate">Chocolate</label><br/>
+        <input type="checkbox" id="vainilla" name="pastel" value="vainilla"/>
+        <label for="vainilla">Vainilla</label><br/>
+        <input type="checkbox" id="fresa" name="pastel" value="fresa"/>
+        <label for="fresa">Fresa</label><br/>
+        <input type="checkbox" id="coco" name="pastel" value="coco"/>
+        <label for="coco">Coco</label><br/>
+
+        <h2 class="subtitulos">Relleno del Pastel: </h2>
+        <input type="checkbox" id="durazno" name="relleno" value="durazno"/>
+        <label for="durazno">Durazno</label><br/>
+        <input type="checkbox" id="kiwi" name="relleno" value="kiwi"/>
+        <label for="wiki">Wiki</label><br/>
+        <input type="checkbox" id="fresa" name="relleno" value="fresa"/>
+        <label for="fresa">Fresa</label><br/>
+
+        <h2 class="subtitulos">Adornos: </h2>
+        <input type="checkbox" id="lestars3d" name="adorno" value="letras3d"/>
+        <label for="letras3d">Letras 3D</label><br/>
+        <input type="checkbox" id="flores" name="adorno" value="flores"/>
+        <label for="flores">Flores</label><br/>
+        <input type="checkbox" id="dibujosanimados" name="adorno" value="dibujosanimados"/>
+        <label for="dibujosanimados">Dibujos Animados</label><br/>
+        <br/>
+
+        <label for="mensaje">Mensaje:</label><br/>
+        <textarea id="mensaje" name="mensaje" rows="2" cols="50" placeholder="Requieres que tu pastel lleve algun mensaje por ejemplo: Feliz Cumpleñaos "></textarea><br/>
+        <br/>
+
+        <h2 class="subtitulos" id="datos">Datos Personales.</h2><br/>
+        
+        <label for="nombre">Nombre: </label><br/>
+        <input type="text" id="nombre" name="nombre"
+            placeholder="Escribe tu Nombre" required="true"><br/>
+       <br/> 
+        <label for="apellido">Apellido: </label><br/>
+        <input type="text" id="apellido" name="apellido"
+            placeholder="Escribe tu Apellido" required="true"><br/>
+        <br/>
+        <label for="contacto">Contacto: </label><br/>
+        <input type="text" id="contacto" name="contacto"
+            placeholder="Numero telenofico" required="true"><br/>
+        <br/>
+        <label for="corre">Correo Electronico: </label><br/>
+        <input type="text" id="correo" name="correo"
+            placeholder="Correo electronico" required="true"><br/>
+        <br/><br>
+
+
+        <h2 class="subtitulos" id="direccion">Dirección de Entrega</h2><br/>
+        
+        <label for="calle">Calle principal: </label><br/>
+        <input type="text" id="calle" name="calle"
+            placeholder="Calle principal" required="true"><br/>
+        <br/>
+        <label for="exterior">Numero Exterior: </label><br/>
+        <input type="text" id="exterior" name="exterior"
+            placeholder="Numero" required="true"><br/>
+        <br/>
+        <label for="calles">Entre Calles: </label><br/>
+        <input type="text" id="calle1" name="calle1"
+            placeholder="Calle" required="true"><br/>
+        <br/>   
+        <input type="text" id="calle2" name="calle2"
+            placeholder="Calle" required="true"><br/>
+        <br/>
+        <label for="colonia">Colonia: </label><br/>
+        <input type="text" id="colonia" name="colonia"
+            placeholder="Colonia" required="true"><br/>
+        
+
+
+        </fieldset>
+    </form>
+</section>
+</body>
+</html>
